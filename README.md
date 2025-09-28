@@ -50,7 +50,7 @@ Each release includes:
 
   **NitroPool addnode:**
   ```
-  addnode=51.75.117.211
+  addnode=51.75.117.211:8591
   ```
 
   **DNS Seeds**
