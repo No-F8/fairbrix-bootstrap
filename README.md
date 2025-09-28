@@ -20,17 +20,17 @@ Each release includes:
 
 ### Linux
 1. Stop your Fairbrix node if it’s running:
-    fairbrix-cli stop
+    `fairbrix-cli stop`
 2. Navigate to your data directory and extract the bootstrap:
-    cd ~/.fairbrix
-    tar -xvzf fairbrix-bootstrap-YYYY-MM-DD.tar.gz -C ~/.fairbrix
+    `cd ~/.fairbrix`
+    `tar -xvzf fairbrix-bootstrap-YYYY-MM-DD.tar.gz -C ~/.fairbrix`
 3. Restart your node:
-    fairbrixd -daemon
+    `fairbrixd -daemon`
 
 ### Windows
 1. Close Fairbrix Core if it’s running.
 2. Navigate to your data folder (default path):
-    C:\Users\<YourName>\AppData\Roaming\Fairbrix
+    `C:\Users\<YourName>\AppData\Roaming\Fairbrix`
 3. Extract the contents of the provided `.zip` archive into a new `Fairbrix` folder.
 4. Restart Fairbrix Core and it will sync from the bootstrap.
 
@@ -40,10 +40,10 @@ Each release includes:
 - Always **backup your `wallet.dat`** before replacing blockchain data.
 - If peers fail to connect, you can manually add nodes in your `fairbrix.conf`:
   NitroPool addnode:
-    addnode=51.75.117.211
+    `addnode=51.75.117.211`
   DNS Seeds
-    addnode=fbx.kawaii.casa
-    addnode=fairbrix.dnsseed.multicoin.co
+    `addnode=fbx.kawaii.casa`
+    `addnode=fairbrix.dnsseed.multicoin.co`
 - Bootstrap files are **point-in-time snapshots**. Your node will still need to download and verify blocks after the snapshot date.
 
 ---
