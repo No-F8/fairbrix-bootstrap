@@ -47,11 +47,18 @@ Each release includes:
 ## ⚠️ Notes
 - Always **backup your `wallet.dat`** before replacing blockchain data.
 - If peers fail to connect, you can manually add nodes in your `fairbrix.conf`:
-  NitroPool addnode:
-    `addnode=51.75.117.211`
-  DNS Seeds
-    `addnode=fbx.kawaii.casa`
-    `addnode=fairbrix.dnsseed.multicoin.co`
+
+  **NitroPool addnode:**
+  ```
+  addnode=51.75.117.211
+  ```
+
+  **DNS Seeds**
+  ```
+  addnode=fbx.kawaii.casa
+  addnode=fairbrix.dnsseed.multicoin.co
+  ```
+
 - Bootstrap files are **point-in-time snapshots**. Your node will still need to download and verify blocks after the snapshot date.
 
 ---
