@@ -20,12 +20,20 @@ Each release includes:
 
 ### Linux
 1. Stop your Fairbrix node if it’s running:
-    `fairbrix-cli stop`
+   ```
+   fairbrix-cli stop
+   ```
+
 2. Navigate to your data directory and extract the bootstrap:
-    `cd ~/.fairbrix`
-    `tar -xvzf fairbrix-bootstrap-YYYY-MM-DD.tar.gz -C ~/.fairbrix`
+   ```
+   cd ~/.fairbrix
+   tar -xvzf fairbrix-bootstrap-YYYY-MM-DD.tar.gz -C ~/.fairbrix
+   ```
+
 3. Restart your node:
-    `fairbrixd -daemon`
+   ```
+   fairbrixd -daemon
+   ```
 
 ### Windows
 1. Close Fairbrix Core if it’s running.
